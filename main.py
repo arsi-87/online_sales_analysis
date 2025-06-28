@@ -5,16 +5,10 @@ import random
 
 product_manager = ProductManager()
 
-<<<<<<< HEAD
 product1 =Product ("Laptop", 750, 4)
 product2 = Product("Mouse", 35,20)
 product3 =Product ("Tv", 550, 7)
-=======
-product1 = Product("Laptop", 750, 7)
-product2 = Product("Mouse", 35,12)
-product3 = Product("Tv", 550, 4)
 product4 = Product("Headphones", 25, 12)
->>>>>>> add-cart-functionality
 
 product_manager.add_product(product1)
 product_manager.add_product(product2)

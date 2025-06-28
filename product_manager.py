@@ -15,3 +15,6 @@ class ProductManager:
     def total_value(self):
         total = sum(product.price * product.quantity for product in self.products )
         print(f"Total value of products is: {total}")
+        
+    def remove_product_by_name(self, name):
+        self.products = [p for p in self.products if p.name != name]
